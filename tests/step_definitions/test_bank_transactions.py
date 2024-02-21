@@ -1,8 +1,8 @@
 import pytest
-from pytest_bdd import scenarios, given, when, then
+from pytest_bdd import scenarios, scenario, given, when, then
 
 # Load all scenarios from the feature file
-scenarios("./features/bank_transactions.feature")
+scenarios("../features/bank_transactions.feature")
 
 
 # Fixtures
