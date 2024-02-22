@@ -5,6 +5,12 @@ from pytest_bdd import scenarios, scenario, given, when, then
 scenarios("../features/bank_transactions.feature")
 
 
+# # Load a single scenario from the feature file
+# @scenario("../features/bank_transactions.feature", "Deposit into Account")
+# def test_scenario():
+#     pass
+
+
 # Fixtures
 @pytest.fixture
 def account_balance():
