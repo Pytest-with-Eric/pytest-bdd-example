@@ -1,6 +1,8 @@
+@banking
 Feature: Bank Transactions
     Tests related to banking Transactions
 
+    @deposit
     Scenario Outline: Deposit into Account
         Given the account balance is $<balance>
         When I deposit $<deposit>
